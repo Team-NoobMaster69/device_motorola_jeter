@@ -1,5 +1,12 @@
+# adsprpcd
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
+
+# fingerprint
 allow init fingerprint_device:chr_file { write ioctl };
 
+# firmware
 allow init firmware_file:filesystem getattr;
 allow init fsg_firmware_file:dir mounton;
 allow init fsg_firmware_file:filesystem { getattr relabelfrom mount };

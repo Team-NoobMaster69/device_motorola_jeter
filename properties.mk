@@ -51,6 +51,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.voice.record.conc.disabled=false \
     vendor.voice.voip.conc.disabled=true
 
+# Dolby
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.audio_fx.current=dolby \
+    ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1 \
+    vendor.audio.dolby.ds2.enabled=true \
+    vendor.audio.dolby.ds2.hardbypass=true
+
 # Audio ACDB
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Bluetooth_cal.acdb \
