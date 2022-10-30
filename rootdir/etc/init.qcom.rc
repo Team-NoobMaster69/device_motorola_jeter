@@ -230,6 +230,9 @@ on post-fs-data
     #Create directory for hostapd
     mkdir /data/hostapd 0770 system wifi
 
+    # Create /data folder for time-services
+    mkdir /data/vendor/time 0700 system system
+
     mkdir /data/vendor/audio/ 0770 media audio
 
     # Create a folder for audio delta files
@@ -395,9 +398,3 @@ service charger /system/bin/charger
     group system graphics
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
-
-service vendor.time_daemon /vendor/bin/time_daemon
-    class main
-    user system
-    group system
-    capabilities SYS_TIME

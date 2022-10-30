@@ -1306,11 +1306,11 @@ vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
 vendor/lib/libthermalclient.so|61becb3664bb8b445cec53c2f173af82ed1ad7ae
 vendor/lib64/libthermalclient.so|8f2411404f56c6d15e6a185124bbc7f8c2adf195
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
+# Time services - from dpl_sprout - RKQ1.200928.002
+-vendor/app/TimeService/TimeService.apk|7c61c4257a39c7aec7992a134a08dcd46a953c96
+vendor/bin/time_daemon|e62d164b8c8b30743837896d4c5e8bca39b364e6
 vendor/etc/init/init.time_daemon.rc|a89ed147a681b30ecf5e78dd2df6b18e1bf7a18b
-vendor/lib64/libtime_genoff.so
+vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
 # TUI - from dpl_sprout - RKQ1.200928.002
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e8d97981d09a4e34907d13bcbbd10f03572c9218

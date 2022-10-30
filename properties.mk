@@ -249,6 +249,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.ptp=2e83 \
     ro.usb.ptp_adb=2e84
 
+# Time
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.delta_time.enable=true
+
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
