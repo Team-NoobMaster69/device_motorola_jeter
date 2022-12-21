@@ -10,19 +10,18 @@ $(call inherit-product, device/motorola/jeter/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Target
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_jeter
+PRODUCT_NAME := arrow_jeter
 PRODUCT_DEVICE := jeter
-PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g6 play
-PRODUCT_MANUFACTURER := motorola
-
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.model \
-    ro.product.name
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := Moto G6 Play
+PRODUCT_MANUFACTURER := Motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="jeter-user 9 PPPS29.118-57-5 d3be1 release-keys" \
@@ -31,7 +30,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := motorola/jeter/jeter:9/PPPS29.118-57-5/d3be1:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-TARGET_BOOT_ANIMATION_RES := 720
-
-TARGET_GAPPS_ARCH := arm64
