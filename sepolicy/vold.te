@@ -1,0 +1,1 @@
+allow vold rootfs:dir { setattr };

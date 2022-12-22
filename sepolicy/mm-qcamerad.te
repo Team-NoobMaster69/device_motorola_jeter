@@ -1,0 +1,5 @@
+allow mm-qcamerad sysfs_jpeg:file { read };
+allow mm-qcamerad sysfs_jpeg:file { open };
+allow mm-qcamerad diag_device:chr_file { read write };
+allow mm-qcamerad diag_device:chr_file { open };
+allow mm-qcamerad diag_device:chr_file { ioctl };

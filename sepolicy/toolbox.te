@@ -1,0 +1,3 @@
+allow toolbox rootfs:dir { read };
+allow toolbox rootfs:dir { open };
+allow toolbox rootfs:dir { setattr };
