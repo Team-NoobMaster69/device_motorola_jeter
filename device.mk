@@ -16,6 +16,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8937
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
@@ -233,6 +236,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sysfs
 
+# QTI Common
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
+$(call inherit-product, device/qcom/common/common.mk)
+
 # Media
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
@@ -301,12 +310,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
     android.hardware.power@1.2.vendor
-
-# Perf
-PRODUCT_PACKAGES+= \
-    vendor.qti.hardware.perf@2.2.vendor
 
 # Protobuf
 PRODUCT_PACKAGES += \

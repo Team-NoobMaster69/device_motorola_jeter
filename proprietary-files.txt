@@ -1078,31 +1078,6 @@ vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 -vendor/lib/libOmxSwVdec.so|30a6eeebd47fbe17aecc92af7fd3dee8848e8bc1
 -vendor/lib/libOmxSwVencMpeg4.so|eda2bef01841815a7a165ea2280c88cf0e080045
 
-# Perf - from dpl_sprout - RKQ1.200928.002
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|6b8f077dc724a202f3fc91c0255f88ad45cbdb62
-vendor/bin/msm_irqbalance|c0910fb319bb8287f176f26078241299455baad0
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
-vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
-vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
-vendor/etc/perf/perf-profile1.conf|5ce649b26b71048734b797af7340d9f7f7b83ca0
-vendor/etc/perf/perfboostsconfig.xml|16dcdf609d5bf2fd839162884111585305f17f7c
-vendor/etc/perf/perfconfigstore.xml|a53be50dbf91c78daf1cddcd3539ffc8ea0902c0
-vendor/etc/perf/targetconfig.xml|6106b22017b4e759c5804d12f439d2d09d567706
-vendor/etc/perf/targetresourceconfigs.xml|d72216867a557eb37b14a1975da40ff0225b6c55
-vendor/lib/libperfconfig.so|4783a38dd417c9bd9c8ed2257f7ea071870f4089
-vendor/lib/libperfgluelayer.so|ceade90b8dad30fa03c19aafb0336b919cdd0735
-vendor/lib/libqti-perfd-client.so|4fec2515f09cf18704e2501da071c7a28d4a61c7
-vendor/lib/libqti-perfd.so|c5515fdfe11d32f0639dbfb6fa17f22571ff514a
-vendor/lib/libqti-util.so|b90cf5d6dab54445906fd94447d6d624586865ed
-vendor/lib/libqti-utils.so|941c03fd2b1ff136a21239471462b036255b451c
-vendor/lib64/liblearningmodule.so|14f21c80b7dbb735cc2357ec8cd8ae9ea41801a5
-vendor/lib64/libperfconfig.so|082055646d2fffcf0120d23ca152d56c903ebd41
-vendor/lib64/libperfgluelayer.so|77c14d1868b52f759f122441b5df7e5fe1e278e1
-vendor/lib64/libqti-perfd-client.so|d6502c16ab4dd7642641b6a8cbb061847ff5cb2d
-vendor/lib64/libqti-perfd.so|2a30ad97973e17694b897c09b5b293c96cbcbab0
-vendor/lib64/libqti-util.so|834cc98315887e57a5f229f9ee1a0d20d0d8f4c3
-vendor/lib64/libqti-utils.so|e734331e086c9b78852871312429ce69092775ca
-
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
