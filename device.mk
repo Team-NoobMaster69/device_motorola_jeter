@@ -88,9 +88,9 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
-# Doze
+# Doze mode
 PRODUCT_PACKAGES += \
-    MotoDoze
+    Doze
 
 # Camera
 PRODUCT_PACKAGES += \
