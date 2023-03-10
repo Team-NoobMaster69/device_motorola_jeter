@@ -88,6 +88,10 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Doze
+PRODUCT_PACKAGES += \
+    MotoDoze
+
 # Camera
 PRODUCT_PACKAGES += \
     libstdc++.vendor \
