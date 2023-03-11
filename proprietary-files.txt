@@ -1105,17 +1105,19 @@ vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 -vendor/lib/libOmxSwVdec.so|30a6eeebd47fbe17aecc92af7fd3dee8848e8bc1
 -vendor/lib/libOmxSwVencMpeg4.so|eda2bef01841815a7a165ea2280c88cf0e080045
 
+# Perf - configs - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/etc/perf/commonresourceconfigs.xml|c03bd36054bb5d327ad12dc711b58b3f658d261c
+vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
+vendor/etc/perf/perf-profile1.conf|5ce649b26b71048734b797af7340d9f7f7b83ca0
+vendor/etc/perf/perfboostsconfig.xml|8cf3f1909bac8a31f1bf468393683629a7d576a4
+vendor/etc/perf/perfconfigstore.xml|300533aba386f075c7681e9f4768a1acae01a38c
+vendor/etc/perf/targetconfig.xml|0072ac955f3da3976b4ba0e6501fede098f7f9ad
+vendor/etc/perf/targetresourceconfigs.xml|ad284846fdebe98f3c786e40abbe1980d50dc033
+
 # Perf - from dpl_sprout - RKQ1.200928.002
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|6b8f077dc724a202f3fc91c0255f88ad45cbdb62
 vendor/bin/msm_irqbalance|c0910fb319bb8287f176f26078241299455baad0
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
-vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
-vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
-vendor/etc/perf/perf-profile1.conf|5ce649b26b71048734b797af7340d9f7f7b83ca0
-vendor/etc/perf/perfboostsconfig.xml|16dcdf609d5bf2fd839162884111585305f17f7c
-vendor/etc/perf/perfconfigstore.xml|a53be50dbf91c78daf1cddcd3539ffc8ea0902c0
-vendor/etc/perf/targetconfig.xml|6106b22017b4e759c5804d12f439d2d09d567706
-vendor/etc/perf/targetresourceconfigs.xml|d72216867a557eb37b14a1975da40ff0225b6c55
 vendor/lib/libperfconfig.so|4783a38dd417c9bd9c8ed2257f7ea071870f4089
 vendor/lib/libperfgluelayer.so|ceade90b8dad30fa03c19aafb0336b919cdd0735
 vendor/lib/libqti-perfd-client.so|4fec2515f09cf18704e2501da071c7a28d4a61c7
