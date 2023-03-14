@@ -6,7 +6,7 @@ echo ""
 
 # Kernel
 echo "cloning kernel and clang"
-git clone -b aljeter-337 https://github.com/Team-NoobMaster69/kernel_motorola_msm8953.git kernel/motorola/msm8953
+git clone -b aljeter-337 https://github.com/Team-NoobMaster69/kernel_motorola_msm8937.git kernel/motorola/msm8937
 git clone --depth=1 -b master https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/proton-clang
 echo ""
 
